@@ -578,6 +578,80 @@ the record allocation to track thread completion.
 
 If the record arrives at a [broadcasting launch node](#launch-modes) that doesn't declare a fixed dispatch grid size via `[NodeDispatchGrid(x,y,z)]`, `SV_DispatchGrid` becomes the dynamic grid size used to launch at the node. The value has no special significance in other contexts.
 
+### DXIL Additions
+
+> TBD
+
+#### Barrier
+
+> TBD
+
+### Diagnostic Changes
+
+#### New Errors
+
+> TBD
+
+##### Barrier
+
+> TBD
+
+#### Validation Changes
+
+> TBD
+
+##### Barrier
+
+> TBD
+
+### Runtime Additions
+
+> TBD
+
+#### Runtime information
+
+> TBD
+
+#### Device Capability
+
+> TBD
+
+## Testing
+
+> TBD
+
+### Correct Behavior Testing
+
+> TBD
+
+#### Barrier
+
+> TBD
+
+#### Diagnostics Testing
+
+> TBD
+
+##### Barrier
+
+> TBD
+
+### Validation Testing
+
+> TBD
+
+#### Barrier
+
+> TBD
+
+### Execution Testing
+
+> TBD
+
+#### Barrier
+
+> TBD
+
 ## Acknowledgments
 
 This spec is an extensive collaboration between the Microsoft HLSL and Direct3D
